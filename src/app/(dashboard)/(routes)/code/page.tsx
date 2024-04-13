@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 import { UseAvatar } from "@/components/user-avatar";
 import { BotAvatar } from "@/components/bot-avatar";
 import ReactMarkdown from "react-markdown";
-const codepage = () => {
+const Codepage = () => {
   const router = useRouter();
 
   const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
@@ -142,4 +142,4 @@ const codepage = () => {
     </div>
   );
 };
-export default codepage;
+export default Codepage;

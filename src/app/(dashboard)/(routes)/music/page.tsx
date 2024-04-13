@@ -15,7 +15,7 @@ import { ChatCompletionRequestMessage } from "openai-edge";
 import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
 
-const musicPage = () => {
+const MusicPage = () => {
   const router = useRouter();
 
   const [music, setMusic] = useState<string>();
@@ -100,4 +100,4 @@ const musicPage = () => {
     </div>
   );
 };
-export default musicPage;
+export default MusicPage;

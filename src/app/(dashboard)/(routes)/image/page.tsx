@@ -25,7 +25,7 @@ import {
 import { Card, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 
-const imagePage = () => {
+const ImagePage = () => {
   const router = useRouter();
   const [images, setImages] = useState<string[]>([]);
 
@@ -185,4 +185,4 @@ const imagePage = () => {
     </div>
   );
 };
-export default imagePage;
+export default ImagePage;

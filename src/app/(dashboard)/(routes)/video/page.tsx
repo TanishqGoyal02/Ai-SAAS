@@ -15,7 +15,7 @@ import { ChatCompletionRequestMessage } from "openai-edge";
 import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
 
-const videoPage = () => {
+const VideoPage = () => {
   const router = useRouter();
 
   const [video, setvideo] = useState<string>();
@@ -103,4 +103,4 @@ const videoPage = () => {
     </div>
   );
 };
-export default videoPage;
+export default VideoPage;
