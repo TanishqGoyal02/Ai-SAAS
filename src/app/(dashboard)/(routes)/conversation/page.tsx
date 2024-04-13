@@ -17,7 +17,7 @@ import { Loader } from "@/components/loader";
 import { cn } from "@/lib/utils";
 import { UseAvatar } from "@/components/user-avatar";
 import { BotAvatar } from "@/components/bot-avatar";
-const conversationPage = () => {
+const ConversationPage = () => {
   const router = useRouter();
 
   const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([]);
@@ -125,4 +125,4 @@ const conversationPage = () => {
     </div>
   );
 };
-export default conversationPage;
+export default ConversationPage;
