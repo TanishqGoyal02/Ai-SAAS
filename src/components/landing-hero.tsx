@@ -32,7 +32,7 @@ export const LandingHero = () => {
         Create content using AI 10x faster
       </div>
       <div>
-        <Link href={isSignedIn ? "/dasboard" : "/sign-up"}>
+        <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
           <Button
             variant="default"
             className="md:text-lg p-4 md:p-6 rounded-full font-semibold bg-gradient-to-r from-purple-400 to-pink-600 pb-4 text-gray-900"
